@@ -21,11 +21,15 @@ In ECCV 2020.
 # Train/Test
 ## test
 Once the TestData are prepared, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
+```shell
 python demo.py
-
+```
 ## train
 Once the train-augment dataset are prepared,you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "train" and '--param' as 'True'(loading checkpoint) or 'False'(no loading checkpoint) in demo.py. 
+
+```shell
 python demo.py
+```
 
 # Contact Us
 If you have any questions, please contact us (xiaofeisun@mail.dlut.edu.cn).
