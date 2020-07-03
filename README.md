@@ -24,7 +24,7 @@ In ECCV 2020.
 
 # Train/Test
 ## test
-Firstly, you need to download the 'Testing dataset' and the pretraind checpoint 'ASTN-best-checkpoint.pth' we provided. Then, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
+Firstly, you need to download the 'Testing dataset' and the pretraind checpoint we provided([BaiduPanDownload link](https://pan.baidu.com/s/1xPH1AzInc1JAMq4Vq7UxGg ). Code: d2o0). Then, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
 ```shell
 python demo.py
 ```
