@@ -17,14 +17,14 @@ In ECCV 2020.
 # Training and Testing Datasets
 
 ## Training dataset
-[Download Link](). Code: 0fj8
+[Download Link](https://pan.baidu.com/s/1rduZEEo3HRq5HqQeXxuX-A ). Code: nx8x
 
 ## Testing dataset
 [Download Link](). Code: f7vk
 
 # Train/Test
 ## test
-Firstly, you need to download the 'Testing dataset' and the pretraind checpoint we provided([BaiduPanDownload link](https://pan.baidu.com/s/1xPH1AzInc1JAMq4Vq7UxGg ). Code: d2o0). Then, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
+Firstly, you need to download the 'Testing dataset' and the pretraind checpoint we provided ([Baidu Pan](https://pan.baidu.com/s/1xPH1AzInc1JAMq4Vq7UxGg). Code: d2o0). Then, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
 ```shell
 python demo.py
 ```
