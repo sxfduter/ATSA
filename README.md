@@ -8,11 +8,11 @@ In ECCV 2020.
 
 # Prerequisites
 + Ubuntu 18
-+ PyTorch 1.0
-+ CUDA 9.0
-+ Cudnn 7.6.0
-+ Python 3.6.5
-+ Numpy 1.16.4
++ PyTorch 1.3.1
++ CUDA 10.1
++ Cudnn 7.5.1
++ Python 3.7
++ Numpy 1.17.3
 
 # Training and Testing Datasets
 
@@ -24,18 +24,18 @@ In ECCV 2020.
 
 # Train/Test
 ## test
-Once the TestData are prepared, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
+Firstly, you need to download the 'Testing dataset' and the pretraind checpoint 'ASTN-best-checkpoint.pth' we provided. Then, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
 ```shell
 python demo.py
 ```
 ## train
-Once the train-augment dataset are prepared,you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "train" and '--param' as 'True'(loading checkpoint) or 'False'(no loading checkpoint) in demo.py. 
+Once the train-augment dataset are prepared,you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "train" and '--param' as 'True'(loading checkpoint) or 'False'(do not loading checkpoint) in demo.py. 
 
 ```shell
 python demo.py
 ```
 
 # Contact Us
-If you have any questions, please contact us (xiaofeisun@mail.dlut.edu.cn).
+If you have any questions, please contact us (xiaofeisun@mail.dlut.edu.cn; 1605721375@mail.dlut.edu.cn).
 
 
