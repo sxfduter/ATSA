@@ -30,7 +30,7 @@ Firstly, you need to download the 'Testing dataset' and the pretraind checpoint 
 python demo.py
 ```
 ## train
-Once the train-augment dataset are prepared,you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "train" and '--param' as 'True'(loading checkpoint) or 'False'(not loading checkpoint) in demo.py. 
+Once the train-augment dataset are prepared,you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "train" and '--param' as 'True'(loading checkpoint) or 'False'(do not load checkpoint) in demo.py. 
 
 ```shell
 python demo.py
