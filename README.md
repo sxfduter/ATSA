@@ -1,4 +1,4 @@
-# ASTA
+# ATSA
 This codebase implements the system described in the paper:
 
 Asymmetric Two-Stream Architecture for Accurate RGB-D Saliency Detection
