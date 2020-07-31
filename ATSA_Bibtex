@@ -1,0 +1,6 @@
+@inproceedings{Zhang_2020_ECCV,
+author = {Miao Zhang, Sun Xiao Fei, Jie Liu, Shuang Xu, Yongri Piao, and Huchuan Lu},
+title = {{Asymmetric Two-Stream Architecture for Accurate RGB-D Saliency Detection},
+booktitle = {ECCV},
+year = {2020}
+}
